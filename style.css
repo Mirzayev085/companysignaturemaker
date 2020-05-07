@@ -1,0 +1,162 @@
+body {
+  background-color: #ffffff;
+  font-family: Tahoma, sans-serif;
+}
+
+#main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#signText {
+  font-size: 14px;
+  text-align: center;
+  float: left;
+}
+
+.image {
+  float: left;
+  margin-right: 10px;
+}
+
+#signature {
+  display: flex;
+}
+
+#names {
+  display: flex;
+}
+
+#signImg {
+  margin-right: 35px;
+}
+
+#nameSurname {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+#position {
+  font-weight: normal;
+}
+
+.fa-instagram,
+.fa-linkedin,
+.fa-facebook,
+.fa-youtube {
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social {
+  padding-top: 5px;
+  display: flex;
+}
+
+#form {
+  display: block;
+}
+
+input {
+  height: 30px;
+  width: 400px !important;
+  margin-bottom: 1px;
+  border: 1px solid rgba(128, 128, 128, 0.308);
+}
+
+.label {
+  font-size: 13px;
+  color: grey;
+}
+
+.btnwidth {
+  width: 400px !important;
+}
+
+.custom-select {
+  width: 75px !important;
+  margin-bottom: 10px;
+}
+
+.containerim {
+  width: 30%;
+  margin: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .containerim {
+    width: 80%;
+    margin: auto;
+  }
+  input {
+    height: 30px;
+    width: 300px !important;
+    margin-bottom: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.308);
+  }
+  .btnwidth {
+    width: 300px !important;
+  }
+}
+
+.read {
+  font-size: 10px;
+  /*color: #aeaeae !important;*/
+  font-style: italic;
+  width: 80%;
+}
+
+.linem {
+  border-right: 5px solid #f9aa19;
+  height: 100px;
+  margin-left: 8px;
+}
+
+.nomargin {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  margin-bottom: 10px !important;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.numwidth {
+  width: 40px;
+}
+
+#_copy {
+  margin-top: 15px;
+}
+
+.topmargin {
+  margin-top: 45px !important;
+}
+
+#text1,
+#text2,
+#text3 {
+  font-size: 12px;
+}
+
+.location,
+.contact {
+  color: #233c84;
+}
+
+#_person,
+#nameSurname,
+#position,
+#department {
+  color: #233c84;
+}
+
+#nameSurname {
+  font-size: 12pt;
+}

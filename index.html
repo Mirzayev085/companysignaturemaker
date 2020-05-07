@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Signature Template</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="containerim mt-2">
+        <div class="col-12 nomargin">
+            <div id="form">
+                <div>
+                    <select id="lang" class="custom-select">
+                        <option value="1">EN</option>
+                        <option value="2">AZ</option>
+                        <option value="3">RU</option>
+                    </select>
+                </div>
+                <label id="lname" class="label" for="_name">Name Surname:</label>
+                <div><input class="form-control" id="_name"></div>
+                <label id="lposition" class="label" for="_position">Position:</label>
+                <div><input class="form-control" id="_position"></div>
+                <label id="ldepartment" class="label" for="_department">Department:</label>
+                <div><input class="form-control" id="_department"></div>
+                <label id="lmobile" class="label" for="_number">Mobile number</label>
+                <div><input class="form-control" id="_number"></div>
+                <label id="linner" class="label" for="_innumber">Internal number</label>
+                <div><input class="form-control" id="_innumber"></div>
+            </div>
+        </div>
+
+        <div class="topmargin" id="copysign">
+            <table>
+                <tbody>
+                    <tr style="vertical-align: top; text-align: left;">
+                        <td style="padding-right: 10px;">
+                            <table>
+                                <tbody>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="sign">
+                                                <div class="image"><img class="loqom" width="100px" src="logo.png">
+                                                </div>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td style="padding-bottom: 10px; margin: 0;">
+                            <div class="signtext ml-3">
+                                <div id="names">
+                                    <span id="nameSurname">Name Surname</span>
+                                </div>
+                                <div class="d-flex">
+                                    <span id="position">Position</span>
+                                </div>
+                                <span id="department"> Division/Department </span>
+                            </div>
+                        </td>
+                        </div>
+                        </div>
+                        </div>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="row mt-3">
+                <div class="col-12">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div style="font-family: Tahoma, sans-serif; font-size: 11pt;" id="unvan" class="location">
+                                        Street Address., AZ1000 Baku, Azerbaijan
+                                    </div>
+                                </td>
+                                <tr>
+                                    <td>
+                                        <div class="contact">
+                                            <span style="font-family: Tahoma, sans-serif; font-size: 11pt;" id="number">(+000 00)
+                                    000 00 00</span>
+                                            <span style="font-family: Tahoma, sans-serif; font-size: 11pt;" id="innumber">
+                                    <span style="color: grey;">|</span> *0990 (0000)
+                                            </span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="social">
+                        <table cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td style="display: inline-block; margin-top: 8px; margin-right: 15px; margin-bottom: 15px;">
+                                        <a href="#">
+                                            <img src="icons/web.png" alt="STP" style="height: 18px; width: 18px;">
+                                        </a>
+                                    </td>
+                                    <td style="display: inline-block; margin-top: 8px; margin-right: 15px; margin-bottom: 15px;">
+                                        <a href="#">
+                                            <img src="icons/facebook.png" alt="facebook" style="height: 18px; width: 18px;">
+                                        </a>
+                                    </td>
+                                    <td style="display: inline-block; margin-top: 8px; margin-right: 15px; margin-bottom: 15px;">
+                                        <a href="#">
+                                            <img src="icons/instagram.png" alt="instagram" style="height: 18px; width: 18px;">
+                                        </a>
+                                    </td>
+                                    <td style="display: inline-block; margin-top: 8px; margin-right: 15px; margin-bottom: 15px;">
+                                        <a href="#">
+                                            <img src="icons/linkedin.png" alt="linkedin" style="height: 18px; width: 18px;">
+                                        </a>
+                                    </td>
+                                    <td style="display: inline-block; margin-top: 8px; margin-right: 15px; margin-bottom: 15px;">
+                                        <a href="#">
+                                            <img src="icons/youtube.png" alt="youtube" style="height: 18px; width: 18px;">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="read mb-4">
+                        <span id="text1" style="color: #8B8B8B; font-family: Arial, Helvetica, sans-serif;">
+                    Please do not print this email unless it is necessary. Every unprinted email helps
+                    the environment.
+                </span><br /><br />
+                        <span id="text2" style="color: #8B8B8B; font-family: Arial, Helvetica, sans-serif;">
+                    CONFIDENTIALITY NOTICE: This email is intended only for the person(s) named in the message
+                    header.
+                </span><br />
+                        <span id="text3" style="color: #8B8B8B; font-family: Arial, Helvetica, sans-serif;">
+                    If you have received this message in error, please notify the sender of the error and delete
+                    the
+                    message.
+                </span>
+                    </div>
+                </div>
+            </div>
+            <button id="_copy" type="button" class="btn btn-primary btnwidth mt-4">COPY TO CLIPBOARD</button>
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
